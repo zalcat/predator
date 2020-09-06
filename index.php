@@ -27,7 +27,7 @@
                 </dl>
             </li>
         </ul> -->
-        <ul class="layui-nav layui-layout-right">
+<!--         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item"> <button type="button" οnclick="selectRole()" class="layui-btn layui-btn-primary layui-btn-radius">选择角色</button>
                     <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
                     zalcat
@@ -39,7 +39,7 @@
                 </dl> 
             </li> 
             <li class="layui-nav-item"><a href="">退出</a></li>
-        </ul>
+        </ul> -->
     </div>
 
     <!-- 核心列表 -->
