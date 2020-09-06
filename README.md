@@ -11,7 +11,9 @@
 `docker build -t predators .`
 使用当前目录Dkerfile 创建镜像，命为 predators。（要和Dockerfile在同一目录，注意命令后面还有一个点）
 
-3.查看docker容器是否创建成功docker images
+3.查看docker容器是否创建成功
+
+`docker images`
 
 4.启动容器predators 
 
