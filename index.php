@@ -27,19 +27,19 @@
                 </dl>
             </li>
         </ul> -->
-<!--         <ul class="layui-nav layui-layout-right">
-            <li class="layui-nav-item"> <button type="button" οnclick="selectRole()" class="layui-btn layui-btn-primary layui-btn-radius">选择角色</button>
-                    <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+<ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item"> <!-- <button type="button" οnclick="selectRole()" class="layui-btn layui-btn-primary layui-btn-radius"> more ~</button> -->
+                    <img src="layui/font/test.jpg"  class="layui-nav-img">
                     zalcat
-                </a>
+               <!--  </a> -->
 
                 <dl class="layui-nav-child">
-                    <dd><a href="">基本资料</a></dd>
-                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="https://www.baidu.com/" target="_blank">学习必备</a></dd>
+<!--                     <dd><a href="">联系作者</a></dd> -->
                 </dl> 
-            </li> 
-            <li class="layui-nav-item"><a href="">退出</a></li>
-        </ul> -->
+<!--             </li> 
+            <li class="layui-nav-item"><a href="">退出</a></li> -->
+        </ul>
     </div>
 
     <!-- 核心列表 -->
