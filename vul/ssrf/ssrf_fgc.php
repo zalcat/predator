@@ -1,6 +1,6 @@
-<?php
-$FILEDIR = $_SERVER['PHP_SELF'];
-$RD = explode('/',$FILEDIR)[1];
+ <?php
+// $FILEDIR = $_SERVER['PHP_SELF'];
+// $RD = explode('/',$FILEDIR)[1];
 $ROOT_DIR =  "../../";
 
 ?>
@@ -29,7 +29,7 @@ $ROOT_DIR =  "../../";
 
 <blockquote class="layui-elem-quote layui-quote-nm"><pre>
 <button style=" postion:relative;float:right" id="test5" class="layui-btn"> 点一下提示~</button>
-    <a style="color:#337ab7;" href="ssrf_fgc.php?file=<?php echo 'http://127.0.0.1/'.$RD.'/vul/ssrf/ssrf_info/info2.php';?>">反正都读了,那就在来一首吧</a>
+    <a style="color:#337ab7;" href="ssrf_fgc.php?file=<?php echo 'http://127.0.0.1/predators/vul/ssrf/ssrf_info/info2.php';?>">反正都读了,那就在来一首吧</a>
 </pre></blockquote>
 
 <?php
