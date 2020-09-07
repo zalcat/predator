@@ -1,6 +1,6 @@
 <?php
-$FILEDIR = $_SERVER['PHP_SELF'];
-$RD = explode('/',$FILEDIR)[1];
+// $FILEDIR = $_SERVER['PHP_SELF'];
+// $RD = explode('/',$FILEDIR)[1];
 $ROOT_DIR =  "../../";
 
 
@@ -31,7 +31,7 @@ $ROOT_DIR =  "../../";
 
 <blockquote class="layui-elem-quote layui-quote-nm"><pre>
 <button style=" postion:relative;float:right" id="test5" class="layui-btn"> 点一下提示~</button>
-    <a style="color:#337ab7;" href="ssrf_curl.php?url=<?php echo 'http://127.0.0.1/'.$RD.'/vul/ssrf/ssrf_info/info1.php';?>">累了吧,来读一首诗吧</a>
+    <a style="color:#337ab7;" href="ssrf_curl.php?url=<?php echo 'http://127.0.0.1/predators/vul/ssrf/ssrf_info/info1.php';?>">累了吧,来读一首诗吧</a>
 </pre></blockquote>
 
 <?php
