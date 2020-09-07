@@ -1,4 +1,3 @@
-
 <?php
 $html=<<<A
 <blockquote class="layui-elem-quote layui-quote-nm">
