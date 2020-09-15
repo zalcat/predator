@@ -43,8 +43,8 @@ $html='';
         <fieldset class="layui-elem-field">      
         <div class="layui-field-box">            
         <blockquote class="layui-elem-quote layui-quote-nm">
-            Predators是一个基于layui后台模板开发多一个带有漏洞的Web应用系统,
-            包含了十多种很常见且威胁巨大的漏洞。
+            <b>Predators是一个基于layui后台模板开发多一个带有漏洞的Web应用系统,
+            包含了十多种很常见且威胁巨大的漏洞。</b>
         </blockquote>
         <legend>你能学到的漏洞类型</legend><br>
             <blockquote class='layui-elem-quote '>
