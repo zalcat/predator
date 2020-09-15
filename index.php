@@ -12,7 +12,7 @@
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo">漏洞练习平台 ~~</div>
+        <div class="layui-logo">渗透测试演练系统</div>
         <!-- 头部区域（可配合layui已有的水平导航） -->
 <!--         <ul class="layui-nav layui-layout-left">
             <li class="layui-nav-item"><a href="">控制台</a></li>
@@ -28,20 +28,26 @@
             </li>
         </ul> -->
 <ul class="layui-nav layui-layout-right">
-            <li class="layui-nav-item"> <!-- <button type="button" οnclick="selectRole()" class="layui-btn layui-btn-primary layui-btn-radius"> more ~</button> -->
+            <li class="layui-nav-item"> <button type="button" οnclick="selectRole()" class="layui-btn layui-btn-primary layui-btn-radius"> 学习必备</button>
+                <dl class="layui-nav-child">
+                    <dd><a href="https://www.baidu.com/" target="_blank">搜索引擎</a></dd>
+                    <dd>
+                        <a href="https://www.ctftools.com/down/">工具盒子</a>
+                    </dd>
+                    <dd>
+                        <a href="https://www.shentoushi.top/">安全工程师导航</a>
+                    </dd>
+<!--                     <dd><a href="">联系作者</a></dd> -->
+                </dl> 
                     <img src="layui/font/test.jpg"  class="layui-nav-img">
                     zalcat
                <!--  </a> -->
 
-                <dl class="layui-nav-child">
-                    <dd><a href="https://www.baidu.com/" target="_blank">学习必备</a></dd>
-<!--                     <dd><a href="">联系作者</a></dd> -->
-                </dl> 
+                
 <!--             </li> 
             <li class="layui-nav-item"><a href="">退出</a></li> -->
         </ul>
     </div>
-
     <!-- 核心列表 -->
     <div class="layui-side layui-bg-black">
         <div class="layui-side-scroll">
