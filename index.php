@@ -31,6 +31,9 @@
             <li class="layui-nav-item"> <button type="button" οnclick="selectRole()" class="layui-btn layui-btn-primary layui-btn-radius"> 学习必备</button>
                 <dl class="layui-nav-child">
                     <dd><a href="https://www.baidu.com/" target="_blank">搜索引擎</a></dd>
+                     <dd>
+                        <a href="https://www.hackjie.com/">黑客街</a>
+                    </dd>
                     <dd>
                         <a href="https://www.ctftools.com/down/">工具盒子</a>
                     </dd>
@@ -214,8 +217,9 @@
     </div>
 
     <div class="layui-footer">
-        底部固定区域
-        © layui.com - 底部固定区域
+        <center>If you want to go fast, go alone. If you want to go far, go together.</center>
+        <!-- 底部固定区域
+        © layui.com - 底部固定区域 -->
     </div>
 </div>
 <script src="layui/layui.js"></script>
