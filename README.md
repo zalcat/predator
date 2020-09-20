@@ -7,18 +7,18 @@ ps:在本地使用环境，请将文件夹放在服务器根目录，并命名�
 
 1.下载测试环境所有文件
 
-`git clone https://github.com/zalcat/predators`
+`git clone https://github.com/zalcat/predator`
 
 2.使用 Dockerfile 创建镜像
 
-`docker build -t predators .`
-使用当前目录Dkerfile 创建镜像，命为 predators。（要和Dockerfile在同一目录，注意命令后面还有一个点）
+`docker build -t predator .`
+使用当前目录Dkerfile 创建镜像，命为 predator。（要和Dockerfile在同一目录，注意命令后面还有一个点）
 
 3.查看docker容器是否创建成功
 
 `docker images`
 
-4.启动容器predators 
+4.启动容器predator
 
 `docker run -it -d -p 8082:80 imageID`
 
