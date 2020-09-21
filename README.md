@@ -30,7 +30,7 @@ docker run -it -d -p 8082:80 imageID
 5.可能需要将数据库连接密码置为空(还在探索原因...)
 进入容器修改配置文件连接mysql数据库
 ```Bash
-docker exec -it 容器 containID /bin/bash
+docker exec -it containID /bin/bash
 cd app/inc/ && vim config.inc.php
 ```
 
