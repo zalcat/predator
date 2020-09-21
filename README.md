@@ -12,23 +12,28 @@ git clone https://github.com/zalcat/predator
 ```
 
 2.使用 Dockerfile 创建镜像
-
-`docker build -t predator .`
+```Bas
+docker build -t predator .
+```
 使用当前目录Dkerfile 创建镜像，命为 predator。（要和Dockerfile在同一目录，注意命令后面还有一个点）
 
 3.查看docker容器是否创建成功
-
-`docker images`
+```Bash
+docker images
+```
 
 4.启动容器predator
-
-`docker run -it -d -p 8082:80 imageID`
+```Bash
+docker run -it -d -p 8082:80 imageID
+```
 
 5.可能需要将数据库连接密码置为空(还在探索原因...)
 进入容器修改配置文件连接mysql数据库
+```Bash
+docker exec -it 容器 containID /bin/bash
+cd app/inc/ && vim config.inc.php
+```
 
-`docker exec -it 容器 containID /bin/bash`
-`cd app/inc/ && vim config.inc.php`
 
 -- 至此就完成了~
 
