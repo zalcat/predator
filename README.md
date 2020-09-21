@@ -7,7 +7,9 @@ ps:在本地使用环境，请将文件夹放在服务器根目录，并命名�
 
 1.下载测试环境所有文件
 
-```git clone https://github.com/zalcat/predator```
+```Bash
+git clone https://github.com/zalcat/predator
+```
 
 2.使用 Dockerfile 创建镜像
 
