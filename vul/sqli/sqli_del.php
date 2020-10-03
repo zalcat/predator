@@ -77,17 +77,19 @@ if(array_key_exists('id', $_GET)){
 
 <!-- 展示留言板内容 -->
     <div id="show_message">
+<blockquote class='layui-elem-quote '>
         <p class="line">留言列表：</p>
-
         <?php
         $query="select * from message";
         $result=execute($link, $query);
         while($data=mysqli_fetch_assoc($result)){
             //输出转义，防XSS
+
             $content=htmlspecialchars($data['content'],ENT_QUOTES);
-            echo "<p class='con'>{$content}</p><a href='sqli_del.php?id={$data['id']}'>删除</a>";
+            echo "<p class='con'>{$content}</p><a href='sqli_del.php?id={$data['id']}'>删除</a></br>";
         }
         ?>
+</blockquote>
     </div>
 </div>
 
