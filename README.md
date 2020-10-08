@@ -1,9 +1,14 @@
-# predator
+# What is Predator
+
+Predator是一个web渗透测试演练平台，包含了常见但危害巨大的Web漏洞，使用了前端框架layui。可通搭建建Docker容器，快速部署测试。
+
+
+
+
+#How to use
 
 ps:在本地使用环境，请将文件夹放在服务器根目录，并命名为predators，方便测试ssrf漏洞。
-
-
-方便测试中损坏系统，重新搭建。利用Docker搭建起来的步骤：
+利用Docker搭建起来的步骤：
 
 1.下载测试环境所有文件
 
@@ -12,7 +17,7 @@ git clone https://github.com/zalcat/predator
 ```
 
 2.使用 Dockerfile 创建镜像
-```Bas
+```Bash
 docker build -t predator .
 ```
 使用当前目录Dkerfile 创建镜像，命为 predator。（要和Dockerfile在同一目录，注意命令后面还有一个点）
@@ -36,7 +41,6 @@ cd app/inc/ && vim config.inc.php
 
 
 -- 至此就完成了~
-
 
 
 项目展示地址(个人服务器，不保证能访问，访问不了就是在测试)
