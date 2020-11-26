@@ -44,7 +44,7 @@
 <!--                     <dd><a href="">联系作者</a></dd> -->
                 </dl> 
                     <img src="layui/font/test.jpg"  class="layui-nav-img">
-                    zalcat
+                    zalCat
                <!--  </a> -->
 
                 
