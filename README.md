@@ -48,6 +48,9 @@ cd app/inc/ && vim config.inc.php
 
 http://47.100.93.180:8082/
 
+ps:
+2021/3/20: download zip电脑管家说文件有脚本病毒，是近期才有的，不用过于担心，应该是/test/yijuhua.txt引起的。
+
 
 
 
